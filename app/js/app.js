@@ -2,6 +2,7 @@
 
 /* App Module */
 
+//Add animations module to application module
 var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
   'phonecatAnimations',

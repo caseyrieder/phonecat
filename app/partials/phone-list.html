@@ -15,6 +15,7 @@
       <!--Body content-->
 
       <ul class="phones">
+        <!--Add phone-listing class to empower animations.css-->
         <li ng-repeat="phone in phones | filter:query | orderBy:orderProp"
             class="thumbnail phone-listing">
           <a href="#/phones/{{phone.id}}" class="thumb"><img ng-src="{{phone.imageUrl}}"></a>
